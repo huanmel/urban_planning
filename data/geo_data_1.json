@@ -1,0 +1,11 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {"type": "Feature", "properties": {"name": "Зона застройки"},
+         "geometry": {"type": "Polygon", "coordinates": [[[30.3000, 59.9200], [30.3150, 59.9200], [30.3150, 59.9290], [30.3000, 59.9290], [30.3000, 59.9200]]]}},
+        {"type": "Feature", "properties": {"name": "Лесная зона", "restriction": "no_build"},
+         "geometry": {"type": "Polygon", "coordinates": [[[30.3100, 59.9250], [30.3130, 59.9250], [30.3130, 59.9270], [30.3100, 59.9270], [30.3100, 59.9250]]]}},
+        {"type": "Feature", "properties": {"name": "Дорога", "restriction": "no_build"},
+         "geometry": {"type": "LineString", "coordinates": [[30.3020, 59.9220], [30.3140, 59.9220]]}}
+    ]
+}
